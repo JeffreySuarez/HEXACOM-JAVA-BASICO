@@ -4,8 +4,8 @@ public class App {
 
     public static void main(String[] args) {
         Customer customer01 = new Customer();
-        customer01.mostrarCustomer();
-        customer01.cart01.addItem();
+       // customer01.mostrarCustomer();
+       // customer01.cart01.addItem();
 
         Customer[] customers = new Customer[3];
 
@@ -21,8 +21,8 @@ public class App {
             System.out.println(c);
         }
 
-        customers[0].nameCustomer = "Diego";
-        customers[0].mostrarCustomer();
+       // customers[0].nameCustomer = "Diego";
+       // customers[0].mostrarCustomer();
 
     }
 }
